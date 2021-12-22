@@ -4,13 +4,13 @@
     justify-content: center;
     align-items: center;
     font-style: italic;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .menu li{
     width: 200px;
-    /* height: 30px; */
-    background-color: rgb(132, 9, 181);
+    background-color: rgb(153, 44, 196);
     border: 1px solid rgb(243, 53, 243);
     color: azure;
     margin: 10px;
@@ -22,11 +22,5 @@
 
 
 .menu li:hover{
-    background-color: rgb(243, 26, 189);
-}
-
-/*  El li activo tiene estas clases */
-.menu li.active{ 
-    background-color: rgb(226, 27, 113);
-    color: white;
+    background-color: rgb(255, 74, 195);
 }
