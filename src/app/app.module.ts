@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -8,6 +9,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { ListaUsuariosComponent } from './lista-usuarios/lista-usuarios.component';
 import { ListaProductosComponent } from './components/lista-productos/lista-productos.component';
 import { ListaSeriesComponent } from './components/lista-series/lista-series.component';
+import { RegistroUsuariosComponent } from './registro-usuarios/registro-usuarios.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { ListaSeriesComponent } from './components/lista-series/lista-series.com
     MenuComponent,
     ListaUsuariosComponent,
     ListaProductosComponent,
-    ListaSeriesComponent
+    ListaSeriesComponent,
+    RegistroUsuariosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
