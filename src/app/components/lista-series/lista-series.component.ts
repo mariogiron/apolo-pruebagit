@@ -8,7 +8,7 @@ import { Serie } from 'src/app/interface/serie.interface';
 })
 export class ListaSeriesComponent implements OnInit {
 
-  arrSeries: Serie[];
+  arrSeries: Serie;
 
   constructor() {
     this.arrSeries = new Array(
