@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Producto } from 'src/app/interfaces/producto.interface';
 
 @Component({
   selector: 'app-lista-productos',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lista-productos.component.css']
 })
 export class ListaProductosComponent implements OnInit {
+
+  producto: Producto | undefined;
 
   constructor() { }
 
