@@ -8,9 +8,11 @@ import { Producto } from 'src/app/interfaces/producto.interface';
 })
 export class ListaProductosComponent implements OnInit {
 
-  producto: Producto | undefined;
+  arrProducto: Producto[];
 
-  constructor() { }
+  constructor() {
+    this.arrProducto = [];
+  }
 
   ngOnInit(): void {
   }

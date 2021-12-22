@@ -1,1 +1,11 @@
-<p>lista-productos works!</p>
+<h1>Lista de productos</h1>
+<div>
+  <div *ngFor="let producto of arrProducto">
+    <h4>{{producto.name}}</h4>
+    <img [src]=producto.image alt="">
+    <p>{{producto.description}}</p>
+    <p>{{producto.price}}</p>
+    <p>{{producto.category}}</p>
+    <p>{{producto.active}}</p>
+  </div>
+</div>
