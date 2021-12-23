@@ -1,6 +1,9 @@
 export interface Serie {
   id: number;
-  titulo: string;
-  creador: string;
-
+  title: string;
+  creator: string;
+  rating: number;
+  dates: string;
+  image: string;
+  channel: string;
 }
