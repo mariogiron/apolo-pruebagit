@@ -12,7 +12,7 @@ export class UsuariosService {
   constructor(
     private httpClient: HttpClient
   ) { 
-    this.baseUrl = 'http://peticiones.online/api/users'
+    this.baseUrl = 'https://peticiones.online/api/users'
   }
   
   getAll(): Promise<any>{
